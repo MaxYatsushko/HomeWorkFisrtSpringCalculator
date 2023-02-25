@@ -14,6 +14,6 @@ GET http://localhost:8080/calculator/divide?num2=10
 ###
 GET http://localhost:8080/calculator/divide?num1=5&num2=0
 ###
-GET http://localhost:8080/calculator/divide2?num1=5&num2=2
+GET http://localhost:8080/calculator/divide2?num1=12&num2=2
 ###
 GET http://localhost:8080/calculator/divide2?num1=5&num2=0
