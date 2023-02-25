@@ -16,7 +16,7 @@ public class CalculatorController {
 
     @ExceptionHandler(DvisionByZeroException.class)
     public ResponseEntity<?> handleDivisionByZero(DvisionByZeroException exception){
-        return ResponseEntity.badRequest().body("Division 0");
+        return ResponseEntity.badRequest().body(exception.getMessage());
     }
 
     public CalculatorController(CalculatorService calculatorService) {
